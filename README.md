@@ -11,7 +11,7 @@ Alpine Linux Setup
 ## Auto Personalization
 * login as `root`
 * `apk add git`
-* `git clone https://github.com/ibuetler/alpine-linux-setup`
+* `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
 * `./setup.sh`
 
@@ -23,8 +23,3 @@ Alpine Linux Setup
 eval `ssh-agent -s`
 ssh-add
 ````
-
-## YouTube Video
-* https://youtu.be/X_T-cKum8dc
-
-
