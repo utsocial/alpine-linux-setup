@@ -19,6 +19,9 @@ Alpine Linux Setup
 * login as `ibuetler`
 * `ssh-keygen`
 
+* login as `cheno` (headless branch)
+* `ssh-keygen`
+
 ````
 eval `ssh-agent -s`
 ssh-add
