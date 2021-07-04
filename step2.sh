@@ -11,7 +11,7 @@ cp ./cheno/.profile /home/cheno/.profile
 chown -R cheno:cheno /home/cheno
 
 # add cheno to sudoers
-cat ./cheno/sudoers >> /etc/cheno
+cat ./cheno/sudoers >> /etc/sudoers
 
 # add user to docker
 addgroup cheno docker
