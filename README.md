@@ -16,7 +16,7 @@ Alpine Linux Setup
 * `./setup.sh`
 
 ## Manual Personalization
-* login as `ibuetler`
+* login as `ibuetler` (gui branches)
 * `ssh-keygen`
 
 * login as `cheno` (headless branch)
