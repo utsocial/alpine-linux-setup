@@ -1,0 +1,3 @@
+## cheno
+cheno ALL=(ALL) ALL
+cheno ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /bin/mount
