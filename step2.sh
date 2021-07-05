@@ -14,12 +14,12 @@ chown -R cheno:cheno /home/cheno
 cat ./cheno/sudoers >> /etc/sudoers
 
 # add user to docker
-addgroup cheno docker
+# addgroup cheno docker
 
 # give cheno write access to /opt dir
 chown cheno:cheno /opt
 
 # mkdir /opt/docker
-mkdir -p /opt/docker
-cp ./docker/* /opt/docker/
-chown cheno:cheno /opt/docker
+# mkdir -p /opt/docker
+# cp ./docker/* /opt/docker/
+# chown cheno:cheno /opt/docker
