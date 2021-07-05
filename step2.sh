@@ -1,7 +1,7 @@
 #!/bin/ash
 apk add curl socat nmap net-tools build-base setxkbmap sudo bash
 
-apk add docker docker-compose
+#apk add docker docker-compose
 
 # add user
 adduser cheno
