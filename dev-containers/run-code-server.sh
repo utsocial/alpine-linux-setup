@@ -9,6 +9,6 @@ docker run -d \
   -e SUDO_PASSWORD_HASH= `#optional` \
   -e PROXY_DOMAIN=code-server.my.domain `#optional` \
   -p 8443:8443 \
-  -v /home/cheno/alpine-linux-setup/config:/config \
+  -v /home/cheno/alpine-linux-setup/code:/config \
   --restart unless-stopped \
   ghcr.io/linuxserver/code-server
