@@ -67,11 +67,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troublesshooting#npm-run-build-fails-to-minify)
 
+
+### StoryBook Tutorials
+[React Storybook Tutorial - 1 - Introduction](https://www.youtube.com/watch?v=BySFuXgG-ow&list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk&index=1&ab_channel=Codevolution)
 
 ### StoryBook initialization
 ### `npx sb init` run once just to initialize
 
 ### To run StoryBook 
-### `yarn storybook` r
+### `yarn storybook` runs locally: http://localhost:6006/  
