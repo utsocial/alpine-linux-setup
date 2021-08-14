@@ -2,5 +2,7 @@
 /code/custom-service.d
 /code/.local/
 /code/.config
+/code/.cache
+/code/.npm
 /code/data
 /code/extesions
