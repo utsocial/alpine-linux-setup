@@ -3,6 +3,7 @@ import {addDecorator} from '@storybook/react'
 import Center from '../src/components/Center/Center'
 import {ThemeProvider, theme, CSSReset, Box} from '@chakra-ui/core'
 import { withConsole } from '@storybook/addon-console';
+import { withKnobs } from '@storybook/addon-knobs';
 
 // addDecorator(story => <Center> {story()} </Center>) // global decorator
 
@@ -18,7 +19,7 @@ addDecorator(story =>
   ) 
 */
 
-addDecorator((storyFn, context) => withConsole()(storyFn)(context))
+// addDecorator((storyFn, context) => withConsole()(storyFn)(context)) // 
 
 // // Chakra Version 6
   export const decorators = [

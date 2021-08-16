@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@chakra-ui/core';
 import {action, actions } from '@storybook/addon-actions';
+import {text, boolean } from '@storybook/addon-knobs';
 
 export default {
     title: 'Chackra/Button',
@@ -50,5 +51,17 @@ Damger.args = {
 }
 */
 
+export const Knobs = () => (
+    <Button 
+        variantColor='purple'
+        disabled={boolean('Disable',false)}>
+        {text('Label XyZ', 'Button Label Knobs')}
+    </Button>
+    )
 
 
+/*
+export const withAButton = () => (
+    <button disabled={boolean('Disabled', false)}>{text('Label', 'Hello Storybook')}</button>
+  );
+*/
