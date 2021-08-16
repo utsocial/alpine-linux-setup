@@ -82,6 +82,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Adding chakra-ui
 yarn add @chakra-ui/core @emotion/styled emotion-theming
 
+### Adding addon-console
+
+// yarn add @chakra-ui/core @emotion/styled emotion-theming no works
+
+npm i @storybook/addon-console
+
+### Adding addon-docs
+yarn add -D @storybook/addon-docs
+npm i @storybook/addon-docs
+
 
 ### Trobuleshooting 1
 

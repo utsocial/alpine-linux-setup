@@ -27,6 +27,13 @@ export const Danger = () =>
         Danger
     </Button>
 
+export const Log = () => 
+    <Button
+        onClick={() => console.log('Button clicked')}
+        variantColor='blue'>
+        Log
+    </Button>
+
 /*
 // Using Args V6
 const Template = args => <Button {...args} />

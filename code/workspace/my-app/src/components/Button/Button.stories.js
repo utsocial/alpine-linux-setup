@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-// import Center from '../Center/Center' // commented b/c is in preview global now
+// import Center from '../Center/Center' // commented b/c is in preview.js global now
 
 export default {
     title: 'Form/Button',
