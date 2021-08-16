@@ -78,3 +78,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### To run StoryBook 
 ### `yarn storybook` runs locally: http://localhost:6006/  
+
+### Adding chakra-ui
+yarn add @chakra-ui/core @emotion/styled emotion-theming
+
+
+### Trobuleshooting 1
+
+> Error: ENOSPC: System limit for number of file watchers reached
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
