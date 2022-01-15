@@ -13,6 +13,7 @@ Alpine Linux Setup
 * `apk add git`
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
+* `git checkout headless`
 * `./setup.sh`
 
 ## Manual Personalization
