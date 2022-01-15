@@ -15,6 +15,12 @@ Alpine Linux Setup
 * `cd alpine-linux-setup`
 * `git checkout headless`
 * `./setup.sh`
+* type cheno password
+* `reboot`
+* `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
+* `cd alpine-linux-setup`
+* `git checkout headless`
+* `./setup.sh`
 
 ## Manual Personalization
 * login as `ibuetler`
