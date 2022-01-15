@@ -19,7 +19,8 @@ Alpine Linux Setup
 * `reboot`
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
-* `git checkout headless`
+* `cd dev-containers`
+* `./code-server.sh`
 * `./setup.sh`
 
 ## Manual Personalization
