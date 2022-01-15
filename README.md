@@ -16,7 +16,10 @@ Alpine Linux Setup
 * `git checkout headless`
 * `./setup.sh`
 * type cheno password
+* `cd ..`
+* `rm -rf alpine-linux-setup`
 * `reboot`
+* 
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
 * `cd dev-containers`
