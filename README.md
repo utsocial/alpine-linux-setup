@@ -1,5 +1,5 @@
 # alpine-linux-setup
-Alpine Linux Setup
+Alpine Linux Setup - Headless
 
 # Alpine Linux
 ## Base Installation
@@ -19,7 +19,7 @@ Alpine Linux Setup
 * login as `ibuetler` (gui branches)
 * `ssh-keygen`
 
-* login as `cheno` (headless branch)
+* login as `noroot` (headless-noroot branch)
 * `ssh-keygen`
 
 ````

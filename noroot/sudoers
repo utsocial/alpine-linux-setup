@@ -1,0 +1,3 @@
+## noroot
+noroot ALL=(ALL) ALL
+noroot ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /bin/mount

@@ -4,22 +4,22 @@ apk add curl socat nmap net-tools build-base setxkbmap sudo bash
 apk add docker docker-compose
 
 # add user
-adduser cheno
+adduser norrot
 
-# user setup cheno
-cp ./cheno/.profile /home/cheno/.profile
-chown -R cheno:cheno /home/cheno
+# user setup noroot
+cp ./noroot/.profile /home/noroot/.profile
+chown -R noroot:noroot /home/noroot
 
-# add cheno to sudoers
-cat ./cheno/sudoers >> /etc/sudoers
+# add noroot to sudoers
+cat ./noroot/sudoers >> /etc/sudoers
 
 # add user to docker
-addgroup cheno docker
+addgroup noroot docker
 
-# give cheno write access to /opt dir
-chown cheno:cheno /opt
+# give noroot write access to /opt dir
+chown noroot:noroot /opt
 
 # mkdir /opt/docker
 mkdir -p /opt/docker
 cp ./docker/* /opt/docker/
-chown cheno:cheno /opt/docker
+chown noroot:noroot /opt/docker
