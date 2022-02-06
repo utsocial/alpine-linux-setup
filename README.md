@@ -22,11 +22,17 @@ Alpine Linux Setup
 * 
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
+
+## Execut container code-server 
 * `cd dev-containers`
 * `./code-server.sh`
-* `./setup.sh`
 
-## Manual Personalization
+
+## Manual Personalization for branches w/cheno noroot user
+* login as `cheno`
+* `ssh-keygen`
+
+## Manual Personalization for branches w/ibuetler noroot  user
 * login as `ibuetler`
 * `ssh-keygen`
 
