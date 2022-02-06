@@ -4,7 +4,7 @@ apk add curl socat nmap net-tools build-base setxkbmap sudo bash
 apk add docker docker-compose
 
 # add user
-adduser norrot
+adduser noroot
 
 # user setup noroot
 cp ./noroot/.profile /home/noroot/.profile
