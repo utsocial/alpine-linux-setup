@@ -19,16 +19,16 @@ Alpine Linux Setup
 * `cd ..`
 * `rm -rf alpine-linux-setup`
 * `reboot`
-* 
+
+## To create dev containers:
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
 
-## Execut container code-server 
+## Execute code-server container
 * `cd dev-containers`
 * `./code-server.sh`
 
-
-## Manual Personalization for branches w/cheno noroot user
+## Manual Personalization for branches w/cheno noroot user 
 * login as `cheno`
 * `ssh-keygen`
 
