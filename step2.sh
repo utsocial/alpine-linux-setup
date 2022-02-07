@@ -1,5 +1,5 @@
 #!/bin/ash
-apk add curl socat nmap net-tools build-base setxkbmap sudo bash
+apk add curl socat nmap net-tools build-base setxkbmap sudo bash tmux
 
 apk add docker docker-compose
 
