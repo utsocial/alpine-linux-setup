@@ -8,15 +8,17 @@ Alpine Linux Setup
 * run `setup-alpine` script
 * `reboot`
 
-## Auto Personalization
+## Auto Personalization noroot-gui
+### Install i3 and xfce windows manager
 * login as `root`
 * `apk add git`
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
+* `git checkout noroot-gui`
 * `./setup.sh`
 
 ## Manual Personalization
-* login as `ibuetler`
+* login as `noroot`
 * `ssh-keygen`
 
 ````

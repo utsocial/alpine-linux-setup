@@ -9,40 +9,40 @@ apk add mesa-gl glib feh firefox-esr accountsservice
 apk add docker docker-compose
 
 # add user
-adduser ibuetler
-mkdir -p /home/ibuetler/wallpaper
-mkdir -p /home/ibuetler/.config/i3
+adduser noroot
+mkdir -p /home/noroot/wallpaper
+mkdir -p /home/noroot/.config/i3
 
-# user setup ibuetler
-cp ./ibuetler/wallpaper/compass.jpg /home/ibuetler/wallpaper/compass.jpg
-cp ./ibuetler/.config/i3/config /home/ibuetler/.config/i3/config
-cp ./ibuetler/.profile /home/ibuetler/.profile
-mkdir -p /home/ibuetler/.scripts
-cp ./ibuetler/login-script.sh /home/ibuetler/.scripts/login-script.sh
-chown -R ibuetler:ibuetler /home/ibuetler
+# user setup noroot
+cp ./noroot/wallpaper/compass.jpg /home/noroot/wallpaper/compass.jpg
+cp ./noroot/.config/i3/config /home/noroot/.config/i3/config
+cp ./noroot/.profile /home/noroot/.profile
+mkdir -p /home/noroot/.scripts
+cp ./noroot/login-script.sh /home/noroot/.scripts/login-script.sh
+chown -R noroot:noroot /home/noroot
 
-# add ibuetler to sudoers
-cat ./ibuetler/sudoers >> /etc/sudoers
+# add noroot to sudoers
+cat ./noroot/sudoers >> /etc/sudoers
 
 # greeter background
-echo "background=/home/ibuetler/wallpaper/compass.jpg" >> /etc/lightdm/lightdm-gtk-greeter.conf
+echo "background=/home/noroot/wallpaper/compass.jpg" >> /etc/lightdm/lightdm-gtk-greeter.conf
 
 # set background image in accountsservice
-cp ./ibuetler/ibuetler /var/lib/AccountsService/users
-chown root:root /var/lib/AccountsService/users/ibuetler
+cp ./noroot/noroot /var/lib/AccountsService/users
+chown root:root /var/lib/AccountsService/users/noroot
 
 # add user to docker
-addgroup ibuetler docker
+addgroup noroot docker
 
 # enable copy paste in vmware
 chmod g+s /usr/bin/vmware-user-suid-wrapper
 
-# give ibuetler write access to /opt dir
-chown ibuetler:ibuetler /opt
+# give noroot write access to /opt dir
+chown noroot:noroot /opt
 
 # mkdir /opt/docker
 mkdir -p /opt/docker
 cp ./docker/* /opt/docker/
-chown ibuetler:ibuetler /opt/docker
+chown noroot:noroot /opt/docker
 
 
