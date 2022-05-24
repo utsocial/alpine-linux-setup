@@ -1,4 +1,4 @@
-# alpine-linux-setup
+# alpine-linux-setup - noroot user with i3 and xfce windows manager
 Alpine Linux Setup
 
 # Alpine Linux
