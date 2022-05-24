@@ -1,4 +1,4 @@
-# alpine-linux-setup
+# alpine-linux-setup Headless (Without GUI)
 Alpine Linux Setup
 
 # Alpine Linux
