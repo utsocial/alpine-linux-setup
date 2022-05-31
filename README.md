@@ -16,7 +16,7 @@ Alpine Linux Setup - Headless
 * `./setup.sh`
 
 ## Manual Personalization
-* login as `ibuetler` (gui branches)
+* login as `noroot`
 * `ssh-keygen`
 
 * login as `noroot` (headless-noroot branch)
