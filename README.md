@@ -31,12 +31,8 @@ Alpine Linux Setup
 * `cd dev-containers`
 * `./code-server.sh`
 
-## Manual Personalization for branches w/cheno noroot user 
-* login as `cheno`
-* `ssh-keygen`
-
-## Manual Personalization for branches w/ibuetler noroot  user
-* login as `ibuetler`
+## Manual Personalization for branches w/noroot  
+* login as `noroot`
 * `ssh-keygen`
 
 ````
