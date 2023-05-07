@@ -4,6 +4,9 @@ Alpine Linux Setup
 # Alpine Linux
 ## Base Installation
 * download iso from internet
+
+[https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/](https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/)
+
 * create vm, boot
 * run `setup-alpine` script
 * `reboot`
